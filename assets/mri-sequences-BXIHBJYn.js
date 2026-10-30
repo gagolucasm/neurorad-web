@@ -1,0 +1,1 @@
+import{j as o}from"./index-RbbLtMo8.js";import t from"./imaging-explorer-IJCJNoqQ.js";import"./brain-HUFBLbYI.js";import"./synth-Cmpk7T6q.js";import"./windows-Bg8d1sxS.js";function s(r){return o.jsx(t,{...r,kind:"mr"})}export{s as default};
