@@ -1,0 +1,91 @@
+{
+  "version": 7,
+  "mode": "Codex built-in image generation",
+  "count": 10,
+  "review": "Conceptual teaching plates; not patient images or histological measurements",
+  "sources": [
+    "https://www.nhlbi.nih.gov/health/atherosclerosis",
+    "https://doi.org/10.1161/STR.0000000000000456",
+    "https://pubmed.ncbi.nlm.nih.gov/12812949/",
+    "https://pubmed.ncbi.nlm.nih.gov/22555587/",
+    "https://medlineplus.gov/syringomyelia.html"
+  ],
+  "rejected": [
+    {
+      "id": "spinal-cord-longitudinal-normal-v7-initial",
+      "reason": "Invented periodic diamond-shaped nodules in longitudinal gray matter. Removed through image-generation edit before shipping."
+    }
+  ],
+  "images": [
+    {
+      "id": "arterial-plaque-intact-v7",
+      "file": "arterial-plaque-intact-v7.jpg",
+      "prompt": "arterial-plaque-intact-v7.prompt.txt",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "id": "venous-sinus-patent-v7",
+      "file": "venous-sinus-patent-v7.jpg",
+      "prompt": "venous-sinus-patent-v7.prompt.txt",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "id": "ependymal-interface-normal-v7",
+      "file": "ependymal-interface-normal-v7.jpg",
+      "prompt": "ependymal-interface-normal-v7.prompt.txt",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "id": "cortical-junction-normal-v7",
+      "file": "cortical-junction-normal-v7.jpg",
+      "prompt": "cortical-junction-normal-v7.prompt.txt",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "id": "arterial-plaque-embolus-v7",
+      "file": "arterial-plaque-embolus-v7.jpg",
+      "prompt": "arterial-plaque-embolus-v7.prompt.txt",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "id": "venous-sinus-thrombus-v7",
+      "file": "venous-sinus-thrombus-v7.jpg",
+      "prompt": "venous-sinus-thrombus-v7.prompt.txt",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "id": "ependymal-transependymal-flow-v7",
+      "file": "ependymal-transependymal-flow-v7.jpg",
+      "prompt": "ependymal-transependymal-flow-v7.prompt.txt",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "id": "cortical-junction-dysplasia-v7",
+      "file": "cortical-junction-dysplasia-v7.jpg",
+      "prompt": "cortical-junction-dysplasia-v7.prompt.txt",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "id": "spinal-cord-longitudinal-normal-v7",
+      "file": "spinal-cord-longitudinal-normal-v7.jpg",
+      "prompt": "spinal-cord-longitudinal-normal-v7.prompt.txt",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "id": "syringomyelia-longitudinal-v7",
+      "file": "syringomyelia-longitudinal-v7.jpg",
+      "prompt": "syringomyelia-longitudinal-v7.prompt.txt",
+      "width": 1024,
+      "height": 1024
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "generation": "Built-in Codex image generation; static offline teaching artwork",
+  "assets": [
+    {
+      "id": "spinal-compartments-normal-v5",
+      "file": "spinal-compartments-normal-v5.jpg",
+      "prompt": "spinal-compartments-normal-v5.prompt.txt",
+      "mode": "builtin-imagegen",
+      "width": 1024,
+      "height": 1024,
+      "original": "exec-7a2dce84-fd38-4bba-9217-08356df7eaab.png",
+      "review": "ten-images-v5-review.txt"
+    },
+    {
+      "id": "spinal-extradural-v5",
+      "file": "spinal-extradural-v5.jpg",
+      "prompt": "spinal-extradural-v5.prompt.txt",
+      "mode": "builtin-imagegen",
+      "width": 1024,
+      "height": 1024,
+      "original": "exec-3dcbe47e-d1db-415c-b98e-5b1de1033937.png",
+      "review": "ten-images-v5-review.txt",
+      "reference": "spinal-compartments-normal-v5"
+    },
+    {
+      "id": "spinal-intradural-extramedullary-v5",
+      "file": "spinal-intradural-extramedullary-v5.jpg",
+      "prompt": "spinal-intradural-extramedullary-v5.prompt.txt",
+      "mode": "builtin-imagegen",
+      "width": 1024,
+      "height": 1024,
+      "original": "exec-cf955a39-535e-41a6-bcf3-3207e16d62b5.png",
+      "review": "ten-images-v5-review.txt",
+      "reference": "spinal-compartments-normal-v5"
+    },
+    {
+      "id": "spinal-intramedullary-v5",
+      "file": "spinal-intramedullary-v5.jpg",
+      "prompt": "spinal-intramedullary-v5.prompt.txt",
+      "mode": "builtin-imagegen",
+      "width": 1024,
+      "height": 1024,
+      "original": "exec-4fcab58e-0004-41f7-8196-808ef9a4a1c3.png",
+      "review": "ten-images-v5-review.txt",
+      "reference": "spinal-compartments-normal-v5"
+    },
+    {
+      "id": "optic-nerve-normal-v5",
+      "file": "optic-nerve-normal-v5.jpg",
+      "prompt": "optic-nerve-normal-v5.prompt.txt",
+      "mode": "builtin-imagegen",
+      "width": 1024,
+      "height": 1024,
+      "original": "exec-adf8debd-a9f0-4feb-a159-334084b022c5.png",
+      "review": "ten-images-v5-review.txt"
+    },
+    {
+      "id": "optic-nerve-neuritis-v5",
+      "file": "optic-nerve-neuritis-v5.jpg",
+      "prompt": "optic-nerve-neuritis-v5.prompt.txt",
+      "mode": "builtin-imagegen",
+      "width": 1024,
+      "height": 1024,
+      "original": "exec-12ad2dfa-e333-4765-bff3-90c532a698de.png",
+      "review": "ten-images-v5-review.txt",
+      "reference": "optic-nerve-normal-v5"
+    },
+    {
+      "id": "hippocampus-normal-v5",
+      "file": "hippocampus-normal-v5.jpg",
+      "prompt": "hippocampus-normal-v5.prompt.txt",
+      "mode": "builtin-imagegen",
+      "width": 1024,
+      "height": 1024,
+      "original": "exec-973ff4f6-7a19-435c-afcc-0f1f9dadc7c9.png",
+      "review": "ten-images-v5-review.txt"
+    },
+    {
+      "id": "hippocampus-sclerosis-v5",
+      "file": "hippocampus-sclerosis-v5.jpg",
+      "prompt": "hippocampus-sclerosis-v5.prompt.txt",
+      "mode": "builtin-imagegen",
+      "width": 1024,
+      "height": 1024,
+      "original": "exec-820cafb8-8db8-48d8-9f38-8aaf2498c6c2.png",
+      "review": "ten-images-v5-review.txt",
+      "reference": "hippocampus-normal-v5"
+    },
+    {
+      "id": "saccular-aneurysm-wall-v5",
+      "file": "saccular-aneurysm-wall-v5.jpg",
+      "prompt": "saccular-aneurysm-wall-v5.prompt.txt",
+      "mode": "builtin-imagegen",
+      "width": 1024,
+      "height": 1024,
+      "original": "exec-b08f0ad4-7118-42c4-be6f-280709db1caf.png",
+      "review": "ten-images-v5-review.txt"
+    },
+    {
+      "id": "arterial-dissection-wall-v5",
+      "file": "arterial-dissection-wall-v5.jpg",
+      "prompt": "arterial-dissection-wall-v5.prompt.txt",
+      "mode": "builtin-imagegen",
+      "width": 1024,
+      "height": 1024,
+      "original": "exec-c4e6674d-db3a-4024-bb1d-0ec817fb878d.png",
+      "review": "ten-images-v5-review.txt"
+    }
+  ]
+}

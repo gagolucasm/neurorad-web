@@ -1,0 +1,7 @@
+Built-in Codex image generation. Conceptual educational illustration, not a patient image.
+
+Stage 1 (reference exec-6c84ffd6-eabd-4a27-886b-6744f73f7b4e.png):
+Use case: scientific-educational. Use input only as STYLE and CAMERA reference for a new paired medical teaching illustration, not disease progression. Same pale neural tissue block, black background, square composition and clean atlas lighting. Replace the ENTIRE vessel and its long trench with intact tissue containing ONE small, rounded oval residual lacunar cavity. A cutaway on the front/top reveals a finite shallow oval cavity filled with pale translucent cyan fluid, thin soft subtly textured gliotic tissue edge merging into brain tissue. It must not be a long tube, have a central vessel, red blood, a thick capsule or an abscess wall. No open channel traversing the block. Preserve generous surrounding intact parenchyma. The small cavity is an example of tissue loss after a small subcortical infarct; it is not a dilated perivascular space. Clean 1024 square medical atlas illustration, no labels, no arrows, no text, no scale, not a real scan. Make the small cavity and surrounding tissue distinct but not grotesque, fluid is false color.
+
+Selected output: exec-9e42369a-60de-46ca-993c-7e73a16da843.png
+

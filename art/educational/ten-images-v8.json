@@ -1,0 +1,110 @@
+{
+  "version": 8,
+  "mode": "Codex built-in image generation",
+  "count": 10,
+  "review": "Conceptual educational models; reviewed visually twice against anatomy and teaching purpose. Not patient images, exact histology, measurement tools or diagnostic templates.",
+  "sources": [
+    "https://doi.org/10.1016/S1474-4422(23)00131-X",
+    "https://www.nidcd.nih.gov/health/vestibular-schwannoma-acoustic-neuroma-and-neurofibromatosis",
+    "https://pubmed.ncbi.nlm.nih.gov/6693964/",
+    "https://www.cns.org/guidelines/browse-guidelines-detail/1-imaging",
+    "https://surgeryreference.aofoundation.org/cmf/trauma/midface/orbit-floor/definition",
+    "https://surgeryreference.aofoundation.org/cmf/further-reading/periorbital-dissection-introduction"
+  ],
+  "rejected": [
+    {
+      "id": "iac-normal-v8-initial",
+      "reason": "Ambiguous facial nerve course and misleading labyrinth contained in canal; replaced by a focused two-bundle model with lateral endpoints omitted."
+    },
+    {
+      "id": "tentorial-opening-normal-v8-initial",
+      "reason": "Mixed transverse brainstem and frontal temporal section; replaced by explicitly spatial model with smooth brainstem and no internal sectional anatomy."
+    },
+    {
+      "id": "craniocervical-normal-v8-initial",
+      "reason": "Unreliable cervical bone detail; local close-up removes vertebrae and measurement implications."
+    }
+  ],
+  "images": [
+    {
+      "id": "perivascular-space-v8",
+      "file": "perivascular-space-v8.jpg",
+      "prompt": "perivascular-space-v8.prompt.txt",
+      "width": 1024,
+      "height": 1024,
+      "selectedOutput": "exec-6c84ffd6-eabd-4a27-886b-6744f73f7b4e.png"
+    },
+    {
+      "id": "lacune-cavity-v8",
+      "file": "lacune-cavity-v8.jpg",
+      "prompt": "lacune-cavity-v8.prompt.txt",
+      "width": 1024,
+      "height": 1024,
+      "selectedOutput": "exec-9e42369a-60de-46ca-993c-7e73a16da843.png"
+    },
+    {
+      "id": "orbital-floor-intact-v8",
+      "file": "orbital-floor-intact-v8.jpg",
+      "prompt": "orbital-floor-intact-v8.prompt.txt",
+      "width": 1024,
+      "height": 1024,
+      "selectedOutput": "exec-c9c2c20f-d623-4dc4-a1e1-5649f155bbae.png"
+    },
+    {
+      "id": "orbital-floor-fracture-v8",
+      "file": "orbital-floor-fracture-v8.jpg",
+      "prompt": "orbital-floor-fracture-v8.prompt.txt",
+      "width": 1024,
+      "height": 1024,
+      "selectedOutput": "exec-dc3c4bd8-3e6a-45a9-95ea-9453f9ef07db.png"
+    },
+    {
+      "id": "iac-normal-v8",
+      "file": "iac-normal-v8.jpg",
+      "prompt": "iac-normal-v8.prompt.txt",
+      "width": 1024,
+      "height": 1024,
+      "selectedOutput": "exec-522df98e-77cf-43af-85bb-18da2e0b61ef.png"
+    },
+    {
+      "id": "iac-schwannoma-v8",
+      "file": "iac-schwannoma-v8.jpg",
+      "prompt": "iac-schwannoma-v8.prompt.txt",
+      "width": 1024,
+      "height": 1024,
+      "selectedOutput": "exec-310dd401-1ce0-4940-9785-25ecff351a30.png"
+    },
+    {
+      "id": "tentorial-opening-normal-v8",
+      "file": "tentorial-opening-normal-v8.jpg",
+      "prompt": "tentorial-opening-normal-v8.prompt.txt",
+      "width": 1024,
+      "height": 1024,
+      "selectedOutput": "exec-0fadd17f-4dca-40d7-9f35-1f047bbf09a9.png"
+    },
+    {
+      "id": "uncal-herniation-v8",
+      "file": "uncal-herniation-v8.jpg",
+      "prompt": "uncal-herniation-v8.prompt.txt",
+      "width": 1024,
+      "height": 1024,
+      "selectedOutput": "exec-cfa170a8-9675-4911-8413-c3f98460d695.png"
+    },
+    {
+      "id": "craniocervical-normal-v8",
+      "file": "craniocervical-normal-v8.jpg",
+      "prompt": "craniocervical-normal-v8.prompt.txt",
+      "width": 1024,
+      "height": 1024,
+      "selectedOutput": "exec-18743023-f6c1-459f-a598-712ffac21a11.png"
+    },
+    {
+      "id": "chiari-tonsillar-descent-v8",
+      "file": "chiari-tonsillar-descent-v8.jpg",
+      "prompt": "chiari-tonsillar-descent-v8.prompt.txt",
+      "width": 1024,
+      "height": 1024,
+      "selectedOutput": "exec-8ef9d5ac-e2bd-413f-b17b-a6cbdd9c3fcc.png"
+    }
+  ]
+}

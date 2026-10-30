@@ -1,0 +1,7 @@
+Built-in Codex image generation. Conceptual educational illustration, not a patient image.
+
+Stage 1:
+Use case: scientific-educational. Create a square 1024x1024 premium medical teaching illustration, an isolated small block of deep brain tissue on a pure charcoal black background. No words, labels, arrows, scale marks or borders. Three-quarter cutaway view showing ONE small penetrating arteriole running diagonally from upper rear to lower front through the tissue. The front cut surface clearly shows a small red circular vascular lumen with a thin vessel wall, surrounded by a narrow transparent cyan fluid sleeve OUTSIDE the vessel, then intact pale ivory brain parenchyma. A longitudinal window opens the tissue along the arteriole so the same thin blue sleeve can be followed continuously along its course. Blood remains solely inside the red lumen. Show a subtle plausible fine tissue texture, not individual giant neurons. The central arteriole must be continuous through the sleeve; no empty separate round cyst, no tissue destruction, no gliotic shell, no capsule, no detached tube. Fluid blue is a conceptual color. Medical atlas quality, clean restrained rendering, readable at small phone size, accurate compartment relationship vessel lumen -> vessel wall -> perivascular fluid -> surrounding neural tissue. This image teaches what a perivascular space surrounds, not microscopic layers or quantitative scale. Generous black margin, object fills 80% of canvas.
+
+Selected output: exec-6c84ffd6-eabd-4a27-886b-6744f73f7b4e.png
+

@@ -1,0 +1,10 @@
+Revisión editorial dirigida · 18 octubre 2026
+Diez láminas conceptuales generadas con la herramienta integrada de Codex, sin API de generación en la aplicación. JPG 1024 × 1024, disponibles sin conexión; no representan pacientes ni imágenes diagnósticas.
+
+1–4. Compartimentos espinales: se conserva cuerpo vertebral anterior arriba y apófisis espinosa posterior abajo. Se rechazó la primera base por orientación incorrecta de la sección medular y se corrigió antes de generar variantes. Masa extradural fuera de dura, IDEM dentro de dura/fuera de médula, IM dentro de médula. Tamaños, raíces y capas simplificados; la tonalidad ámbar no identifica el tipo histológico.
+5–6. Nervio óptico: globo anterior, nervio posterior continuo, LCR perineural y vaina separados. La variante ilustra inflamación y aumento de calibre, sin convertir la vaina en la lesión. El engrosamiento no es obligatorio en toda neuritis y los colores no codifican señal RM.
+7–8. Hipocampo: región temporal medial derecha en coronal, lateral a izquierda de imagen y medial a derecha. Base regenerada a partir de una referencia geométrica MNI después de rechazar un primer intento de anatomía coronal completa. Reducción de la estructura hipocampal bajo el espacio líquido superior, conservando el giro parahipocampal inferior. Comparación conceptual, sin gradación histológica ni subcampos CA identificables.
+9. Aneurisma: saco comunicado con arteria por cuello, pared remodelada. No se infiere riesgo de rotura por grosor del dibujo.
+10. Disección: hematoma intramural y luz verdadera estrechada; colgajo como una presentación posible, no requisito universal.
+
+Las bases aceptadas se usaron como referencias de las variantes. Las leyendas y textos alternativos indican orientación, límites y mecanismo. La revisión dirigida del contenido y la validación técnica no equivalen a una certificación clínica independiente.

@@ -1,0 +1,7 @@
+Built-in Codex image generation. Conceptual educational illustration, not a patient image.
+
+Stage 1:
+Use case: scientific-educational. Square 1024x1024 medical atlas illustration of a LOCAL CORONAL CUTAWAY of one human orbit above the maxillary sinus, viewed from the front at the level just behind the eyeball. No words, labels, arrows, numbers or measurement lines. Do not show a whole face. Eye itself is not in this plane: show a small central optic nerve cross-section in yellow orbital fat, with four small red cross-sectional rectus muscle bellies around it (superior, inferior, medial, lateral). The inferior rectus is a small flattened oval below the central nerve, within the orbital fat and just ABOVE an uninterrupted thin ivory bony orbital floor. That thin floor is also the roof of the large dark air-filled maxillary sinus immediately below. Show thick outer cheek bone at the lateral edge and a few small ethmoid air cells at the medial edge. The main concept is orbital fat and inferior rectus separated from the maxillary air sinus by a thin continuous bone plate. Show all muscles confined to the orbit, no muscle or fat in the sinus. The sinus is empty dark air with a thin mucosal lining. Restrained pale bone, warm yellow fat, muted red muscle, dark sinus; matte realistic atlas rendering on charcoal black, anatomy clear and clean, not a CT or MRI. No pathology, no fracture, no blood. Consistent front-facing single orbital cutaway with generous margin.
+
+Selected output: exec-c9c2c20f-d623-4dc4-a1e1-5649f155bbae.png
+

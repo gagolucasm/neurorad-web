@@ -1,0 +1,7 @@
+Built-in Codex image generation. Conceptual educational illustration, not a patient image.
+
+Stage 1 (reference exec-c9c2c20f-d623-4dc4-a1e1-5649f155bbae.png):
+Use case: precise-object-edit scientific-educational. Input is the edit target. Preserve this exact local coronal orbital anatomy, camera, bone, optic nerve, four muscles, all tissues and black background. Change ONLY a short central segment of the thin horizontal orbital floor: make a localized fracture gap with a small ivory bone fragment hinged downward into the maxillary sinus. A small teardrop of yellow orbital fat herniates downward through the gap into the dark maxillary sinus immediately below. The red inferior rectus muscle MUST REMAIN entirely ABOVE the broken floor, with a thin layer of fat between muscle and bone; do not pull any muscle into the gap or sinus. This is a pure orbital floor blowout fracture with fat herniation and WITHOUT muscle entrapment. The lateral orbital rim remains intact, no extra fracture, no giant collapse, no blood needed, sinus mainly air. No text/arrows/labels, same atlas illustration, not CT. Keep the subtle change easily visible at phone size.
+
+Selected output: exec-dc3c4bd8-3e6a-45a9-95ea-9453f9ef07db.png
+

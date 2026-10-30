@@ -1,0 +1,1 @@
+const e={cerebro:{label:"Cerebro",W:80,L:40},subdural:{label:"Subdural",W:200,L:75},ictus:{label:"Ictus",W:40,L:40},"partes-blandas":{label:"Partes blandas",W:400,L:40},hueso:{label:"Hueso",W:2e3,L:500}};export{e as C};

@@ -1,0 +1,79 @@
+{
+  "purpose": "Ten conceptual educational illustrations; not patient images",
+  "assets": [
+    {
+      "id": "meningeal-layers-v4",
+      "file": "meningeal-layers-v4.jpg",
+      "prompt": "meningeal-layers-v4.prompt.txt",
+      "original": "exec-40682f2f-3dd8-4253-ba79-d1f12443ae87.png",
+      "mode": "built-in generation"
+    },
+    {
+      "id": "edema-cytotoxic-v4",
+      "file": "edema-cytotoxic-v4.jpg",
+      "prompt": "edema-cytotoxic-v4.prompt.txt",
+      "original": "exec-240bc310-8172-4caa-b947-b929156a6fc5.png",
+      "mode": "built-in generation"
+    },
+    {
+      "id": "abscess-capsule-v4",
+      "file": "abscess-capsule-v4.jpg",
+      "prompt": "abscess-capsule-v4.prompt.txt",
+      "original": "exec-b6cfe505-6cbf-4dba-b1ea-8950b51c21bc.png",
+      "mode": "built-in generation"
+    },
+    {
+      "id": "sellar-chiasm-v4",
+      "file": "sellar-chiasm-v4.jpg",
+      "prompt": "sellar-chiasm-v4.prompt.txt",
+      "original": "exec-c1d4724f-8cfe-4b01-ae36-fdad8e3229c7.png",
+      "mode": "built-in generation"
+    },
+    {
+      "id": "lumbar-disc-intact-v4",
+      "file": "lumbar-disc-intact-v4.jpg",
+      "prompt": "lumbar-disc-intact-v4.prompt.txt",
+      "original": "exec-539fa786-271f-4905-ac0e-78320db059d2.png",
+      "mode": "built-in generation"
+    },
+    {
+      "id": "aqueduct-obstruction-v4",
+      "file": "aqueduct-obstruction-v4.jpg",
+      "prompt": "aqueduct-obstruction-v4.prompt.txt",
+      "original": "exec-cc74ceb8-9dbd-4fd0-a5da-6e6b13074b6b.png",
+      "mode": "built-in generation"
+    },
+    {
+      "id": "epidural-compartment-v4",
+      "file": "epidural-compartment-v4.jpg",
+      "prompt": "epidural-compartment-v4.prompt.txt",
+      "original": "exec-c9efb4e7-34f9-45b7-81c9-7c0cf2690104.png",
+      "mode": "built-in edit",
+      "reference": "meningeal-layers-v4"
+    },
+    {
+      "id": "subdural-compartment-v4",
+      "file": "subdural-compartment-v4.jpg",
+      "prompt": "subdural-compartment-v4.prompt.txt",
+      "original": "exec-ae58457c-4eb3-4064-9a79-38af6b585434.png",
+      "mode": "built-in edit",
+      "reference": "meningeal-layers-v4"
+    },
+    {
+      "id": "edema-vasogenic-v4",
+      "file": "edema-vasogenic-v4.jpg",
+      "prompt": "edema-vasogenic-v4.prompt.txt",
+      "original": "exec-35c945cf-cdde-40ff-b9f2-19cc6af129d0.png",
+      "mode": "built-in edit",
+      "reference": "edema-cytotoxic-v4"
+    },
+    {
+      "id": "lumbar-disc-herniated-v4",
+      "file": "lumbar-disc-herniated-v4.jpg",
+      "prompt": "lumbar-disc-herniated-v4.prompt.txt",
+      "original": "exec-efbd13ca-d7ef-4798-8b72-b24bedc6189e.png",
+      "mode": "built-in edit",
+      "reference": "lumbar-disc-intact-v4"
+    }
+  ]
+}

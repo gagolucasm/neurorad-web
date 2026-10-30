@@ -1,0 +1,1569 @@
+{
+ "version": 1,
+ "space": "MNI152NLin2009aSym (ICBM 2009a nonlinear symmetric), 1 mm, RAS mm coordinates",
+ "source": "MNI ICBM152 2009a nonlinear symmetric template (T1, T2, PD, tissue probabilities, brain mask)",
+ "license": "MNI ICBM152 2009a: Copyright (C) 1993-2004 Louis Collins, McConnell Brain Imaging Centre, Montreal Neurological Institute, McGill University. Permission to use, copy, modify, and distribute this software and its documentation for any purpose and without fee is hereby granted, provided that the above copyright notice appear in all copies. The authors and McGill University make no representations about the suitability of this software for any purpose. It is provided \"as is\" without express or implied warranty. | Harvard-Oxford atlases: distributed with FSL (FMRIB, Oxford), non-commercial use. | Arterial Atlas (Liu et al. 2023): Creative Commons Attribution (CC BY) per the NITRC project \"arterialatlas\"; files taken from the OSF mirror https://osf.io/e3r7b (Arterial.zip).",
+ "citation": [
+  "Fonov VS, Evans AC, McKinstry RC, Almli CR, Collins DL. Unbiased nonlinear average age-appropriate brain templates from birth to adulthood. NeuroImage 2009;47:S102.",
+  "Fonov V, Evans AC, Botteron K, Almli CR, McKinstry RC, Collins DL. Unbiased average age-appropriate atlases for pediatric studies. NeuroImage 2011;54(1):313-327.",
+  "Desikan RS, et al. An automated labeling system for subdividing the human cerebral cortex on MRI scans into gyral based regions of interest. NeuroImage 2006;31(3):968-980 (Harvard-Oxford cortical atlas, FSL).",
+  "Makris N, et al. Decreased volume of left and total anterior insular lobule in schizophrenia. Schizophr Res 2006;83:155-171 (Harvard-Oxford atlas).",
+  "Liu CF, Hsu J, Xu X, et al. Digital 3D Brain MRI Arterial Territories Atlas. Sci Data 2023;10:74. doi:10.1038/s41597-022-01923-0"
+ ],
+ "territorySource": "atlas",
+ "territoryNote": "Territorios principales y perforantes: Arterial Atlas (Liu et al. 2023, nivel 1), remuestreado a la plantilla 2009a. Zonas frontera (frontera-*): NO están en el atlas; derivadas geométricamente (aproximadas) a partir de las interfaces ACA-ACM y ACM-ACP y de la pared del ventrículo lateral.",
+ "derived": "atlas: Harvard-Oxford + reglas geométricas (cerebelo/vermis, división del tronco, III/IV ventrículos, acueducto, cuerpo calloso, brazos de la cápsula interna). tissue: segmentación propia de la cabeza (hueso, diploe, senos aéreos con celdillas mastoideas dibujadas, ojos, grasa, partes blandas); plexo coroideo (glomus) y senos venosos durales con geometría aproximada.",
+ "planes": {
+  "axial": {
+   "count": 80,
+   "width": 191,
+   "height": 223,
+   "cols": 12,
+   "axis": "z",
+   "positionsMm": [
+    -66,
+    -64,
+    -62,
+    -60,
+    -58,
+    -56,
+    -54,
+    -52,
+    -50,
+    -48,
+    -46,
+    -44,
+    -42,
+    -40,
+    -38,
+    -36,
+    -34,
+    -32,
+    -30,
+    -28,
+    -26,
+    -24,
+    -22,
+    -20,
+    -18,
+    -16,
+    -14,
+    -12,
+    -10,
+    -8,
+    -6,
+    -4,
+    -2,
+    0,
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18,
+    20,
+    22,
+    24,
+    26,
+    28,
+    30,
+    32,
+    34,
+    36,
+    38,
+    40,
+    42,
+    44,
+    46,
+    48,
+    50,
+    52,
+    54,
+    56,
+    58,
+    60,
+    62,
+    64,
+    66,
+    68,
+    70,
+    72,
+    74,
+    76,
+    78,
+    80,
+    82,
+    84,
+    86,
+    88,
+    90,
+    92
+   ],
+   "col": {
+    "axis": "x",
+    "mm0": 95,
+    "step": -1
+   },
+   "row": {
+    "axis": "y",
+    "mm0": 97,
+    "step": -1
+   },
+   "files": {
+    "t1": "axial-t1.jpg",
+    "t2": "axial-t2.jpg",
+    "pd": "axial-pd.jpg",
+    "tissue": "axial-tissue.png",
+    "atlas": "axial-atlas.png",
+    "territory": "axial-territory.png"
+   }
+  },
+  "coronal": {
+   "count": 72,
+   "width": 191,
+   "height": 180,
+   "cols": 11,
+   "axis": "y",
+   "positionsMm": [
+    93,
+    90,
+    87,
+    84,
+    81,
+    78,
+    75,
+    72,
+    69,
+    66,
+    63,
+    60,
+    57,
+    54,
+    51,
+    48,
+    45,
+    42,
+    39,
+    36,
+    33,
+    30,
+    27,
+    24,
+    21,
+    18,
+    15,
+    12,
+    9,
+    6,
+    3,
+    0,
+    -3,
+    -6,
+    -9,
+    -12,
+    -15,
+    -18,
+    -21,
+    -24,
+    -27,
+    -30,
+    -33,
+    -36,
+    -39,
+    -42,
+    -45,
+    -48,
+    -51,
+    -54,
+    -57,
+    -60,
+    -63,
+    -66,
+    -69,
+    -72,
+    -75,
+    -78,
+    -81,
+    -84,
+    -87,
+    -90,
+    -93,
+    -96,
+    -99,
+    -102,
+    -105,
+    -108,
+    -111,
+    -114,
+    -117,
+    -120
+   ],
+   "col": {
+    "axis": "x",
+    "mm0": 95,
+    "step": -1
+   },
+   "row": {
+    "axis": "z",
+    "mm0": 107,
+    "step": -1
+   },
+   "files": {
+    "t1": "coronal-t1.jpg",
+    "t2": "coronal-t2.jpg",
+    "pd": "coronal-pd.jpg",
+    "tissue": "coronal-tissue.png",
+    "atlas": "coronal-atlas.png",
+    "territory": "coronal-territory.png"
+   }
+  },
+  "sagital": {
+   "count": 53,
+   "width": 223,
+   "height": 180,
+   "cols": 9,
+   "axis": "x",
+   "positionsMm": [
+    78,
+    75,
+    72,
+    69,
+    66,
+    63,
+    60,
+    57,
+    54,
+    51,
+    48,
+    45,
+    42,
+    39,
+    36,
+    33,
+    30,
+    27,
+    24,
+    21,
+    18,
+    15,
+    12,
+    9,
+    6,
+    3,
+    0,
+    -3,
+    -6,
+    -9,
+    -12,
+    -15,
+    -18,
+    -21,
+    -24,
+    -27,
+    -30,
+    -33,
+    -36,
+    -39,
+    -42,
+    -45,
+    -48,
+    -51,
+    -54,
+    -57,
+    -60,
+    -63,
+    -66,
+    -69,
+    -72,
+    -75,
+    -78
+   ],
+   "col": {
+    "axis": "y",
+    "mm0": 97,
+    "step": -1
+   },
+   "row": {
+    "axis": "z",
+    "mm0": 107,
+    "step": -1
+   },
+   "files": {
+    "t1": "sagital-t1.jpg",
+    "t2": "sagital-t2.jpg",
+    "pd": "sagital-pd.jpg",
+    "tissue": "sagital-tissue.png",
+    "atlas": "sagital-atlas.png",
+    "territory": "sagital-territory.png"
+   }
+  }
+ },
+ "tissue": [
+  {
+   "id": 0,
+   "key": "aire",
+   "es": "Aire / fondo",
+   "en": "Air / background",
+   "group": "aire",
+   "side": "",
+   "color": "#000000"
+  },
+  {
+   "id": 1,
+   "key": "lcr",
+   "es": "LCR",
+   "en": "CSF",
+   "group": "lcr",
+   "side": "",
+   "color": "#2f78c4"
+  },
+  {
+   "id": 2,
+   "key": "sg",
+   "es": "Sustancia gris cortical",
+   "en": "Cortical grey matter",
+   "group": "parenquima",
+   "side": "",
+   "color": "#a3a3a3"
+  },
+  {
+   "id": 3,
+   "key": "sb",
+   "es": "Sustancia blanca",
+   "en": "White matter",
+   "group": "parenquima",
+   "side": "",
+   "color": "#e6e6e6"
+  },
+  {
+   "id": 4,
+   "key": "nucleos",
+   "es": "Núcleos grises profundos",
+   "en": "Deep grey nuclei",
+   "group": "parenquima",
+   "side": "",
+   "color": "#d9895b"
+  },
+  {
+   "id": 5,
+   "key": "hueso",
+   "es": "Hueso cortical",
+   "en": "Cortical bone",
+   "group": "hueso",
+   "side": "",
+   "color": "#fff4d6"
+  },
+  {
+   "id": 6,
+   "key": "partes-blandas",
+   "es": "Partes blandas (cuero cabelludo, músculo)",
+   "en": "Soft tissue (scalp, muscle)",
+   "group": "partes-blandas",
+   "side": "",
+   "color": "#b5584a"
+  },
+  {
+   "id": 7,
+   "key": "grasa",
+   "es": "Grasa (subcutánea, orbitaria)",
+   "en": "Fat (subcutaneous, orbital)",
+   "group": "grasa",
+   "side": "",
+   "color": "#e8c547"
+  },
+  {
+   "id": 8,
+   "key": "ojo",
+   "es": "Globo ocular (vítreo)",
+   "en": "Eye globe (vitreous)",
+   "group": "ojo",
+   "side": "",
+   "color": "#4cc9d9"
+  },
+  {
+   "id": 9,
+   "key": "aire-senos",
+   "es": "Aire en senos, fosas nasales y mastoides",
+   "en": "Air in sinuses, nasal cavity and mastoid",
+   "group": "aire",
+   "side": "",
+   "color": "#1e4f4a"
+  },
+  {
+   "id": 10,
+   "key": "plexo-coroideo",
+   "es": "Plexo coroideo",
+   "en": "Choroid plexus",
+   "group": "lcr",
+   "side": "",
+   "color": "#e06c8e"
+  },
+  {
+   "id": 11,
+   "key": "seno-venoso",
+   "es": "Seno venoso dural",
+   "en": "Dural venous sinus",
+   "group": "vascular",
+   "side": "",
+   "color": "#3e7bd6"
+  },
+  {
+   "id": 12,
+   "key": "diploe",
+   "es": "Diploe (hueso esponjoso)",
+   "en": "Diploe (cancellous bone)",
+   "group": "hueso",
+   "side": "",
+   "color": "#c9b98f"
+  }
+ ],
+ "atlas": [
+  {
+   "id": 1,
+   "key": "polo-frontal-d",
+   "es": "Polo frontal",
+   "en": "Frontal pole",
+   "group": "frontal",
+   "side": "D",
+   "color": "#3f6fd1"
+  },
+  {
+   "id": 2,
+   "key": "polo-frontal-i",
+   "es": "Polo frontal",
+   "en": "Frontal pole",
+   "group": "frontal",
+   "side": "I",
+   "color": "#3f6fd1"
+  },
+  {
+   "id": 3,
+   "key": "frontal-superior-d",
+   "es": "Giro frontal superior",
+   "en": "Superior frontal gyrus",
+   "group": "frontal",
+   "side": "D",
+   "color": "#5b8def"
+  },
+  {
+   "id": 4,
+   "key": "frontal-superior-i",
+   "es": "Giro frontal superior",
+   "en": "Superior frontal gyrus",
+   "group": "frontal",
+   "side": "I",
+   "color": "#5b8def"
+  },
+  {
+   "id": 5,
+   "key": "frontal-medio-d",
+   "es": "Giro frontal medio",
+   "en": "Middle frontal gyrus",
+   "group": "frontal",
+   "side": "D",
+   "color": "#7fa8f5"
+  },
+  {
+   "id": 6,
+   "key": "frontal-medio-i",
+   "es": "Giro frontal medio",
+   "en": "Middle frontal gyrus",
+   "group": "frontal",
+   "side": "I",
+   "color": "#7fa8f5"
+  },
+  {
+   "id": 7,
+   "key": "frontal-inferior-d",
+   "es": "Giro frontal inferior (Broca a la izquierda)",
+   "en": "Inferior frontal gyrus",
+   "group": "frontal",
+   "side": "D",
+   "color": "#a3c1fa"
+  },
+  {
+   "id": 8,
+   "key": "frontal-inferior-i",
+   "es": "Giro frontal inferior (Broca a la izquierda)",
+   "en": "Inferior frontal gyrus",
+   "group": "frontal",
+   "side": "I",
+   "color": "#a3c1fa"
+  },
+  {
+   "id": 9,
+   "key": "orbitofrontal-d",
+   "es": "Corteza orbitofrontal y giro recto",
+   "en": "Orbitofrontal cortex and gyrus rectus",
+   "group": "frontal",
+   "side": "D",
+   "color": "#4a7bc4"
+  },
+  {
+   "id": 10,
+   "key": "orbitofrontal-i",
+   "es": "Corteza orbitofrontal y giro recto",
+   "en": "Orbitofrontal cortex and gyrus rectus",
+   "group": "frontal",
+   "side": "I",
+   "color": "#4a7bc4"
+  },
+  {
+   "id": 11,
+   "key": "precentral-d",
+   "es": "Giro precentral (corteza motora)",
+   "en": "Precentral gyrus (motor cortex)",
+   "group": "frontal",
+   "side": "D",
+   "color": "#2f5fbf"
+  },
+  {
+   "id": 12,
+   "key": "precentral-i",
+   "es": "Giro precentral (corteza motora)",
+   "en": "Precentral gyrus (motor cortex)",
+   "group": "frontal",
+   "side": "I",
+   "color": "#2f5fbf"
+  },
+  {
+   "id": 13,
+   "key": "postcentral-d",
+   "es": "Giro poscentral (corteza sensitiva)",
+   "en": "Postcentral gyrus (sensory cortex)",
+   "group": "parietal",
+   "side": "D",
+   "color": "#2f9c8f"
+  },
+  {
+   "id": 14,
+   "key": "postcentral-i",
+   "es": "Giro poscentral (corteza sensitiva)",
+   "en": "Postcentral gyrus (sensory cortex)",
+   "group": "parietal",
+   "side": "I",
+   "color": "#2f9c8f"
+  },
+  {
+   "id": 15,
+   "key": "parietal-superior-d",
+   "es": "Lobulillo parietal superior",
+   "en": "Superior parietal lobule",
+   "group": "parietal",
+   "side": "D",
+   "color": "#43b3a6"
+  },
+  {
+   "id": 16,
+   "key": "parietal-superior-i",
+   "es": "Lobulillo parietal superior",
+   "en": "Superior parietal lobule",
+   "group": "parietal",
+   "side": "I",
+   "color": "#43b3a6"
+  },
+  {
+   "id": 17,
+   "key": "supramarginal-d",
+   "es": "Giro supramarginal",
+   "en": "Supramarginal gyrus",
+   "group": "parietal",
+   "side": "D",
+   "color": "#6cc9bd"
+  },
+  {
+   "id": 18,
+   "key": "supramarginal-i",
+   "es": "Giro supramarginal",
+   "en": "Supramarginal gyrus",
+   "group": "parietal",
+   "side": "I",
+   "color": "#6cc9bd"
+  },
+  {
+   "id": 19,
+   "key": "angular-d",
+   "es": "Giro angular",
+   "en": "Angular gyrus",
+   "group": "parietal",
+   "side": "D",
+   "color": "#94dcd2"
+  },
+  {
+   "id": 20,
+   "key": "angular-i",
+   "es": "Giro angular",
+   "en": "Angular gyrus",
+   "group": "parietal",
+   "side": "I",
+   "color": "#94dcd2"
+  },
+  {
+   "id": 21,
+   "key": "precuneo-d",
+   "es": "Precúneo",
+   "en": "Precuneus",
+   "group": "parietal",
+   "side": "D",
+   "color": "#3a8f86"
+  },
+  {
+   "id": 22,
+   "key": "precuneo-i",
+   "es": "Precúneo",
+   "en": "Precuneus",
+   "group": "parietal",
+   "side": "I",
+   "color": "#3a8f86"
+  },
+  {
+   "id": 23,
+   "key": "polo-temporal-d",
+   "es": "Polo temporal",
+   "en": "Temporal pole",
+   "group": "temporal",
+   "side": "D",
+   "color": "#c06c3c"
+  },
+  {
+   "id": 24,
+   "key": "polo-temporal-i",
+   "es": "Polo temporal",
+   "en": "Temporal pole",
+   "group": "temporal",
+   "side": "I",
+   "color": "#c06c3c"
+  },
+  {
+   "id": 25,
+   "key": "temporal-superior-d",
+   "es": "Giro temporal superior (Heschl, Wernicke a la izquierda)",
+   "en": "Superior temporal gyrus",
+   "group": "temporal",
+   "side": "D",
+   "color": "#d9895b"
+  },
+  {
+   "id": 26,
+   "key": "temporal-superior-i",
+   "es": "Giro temporal superior (Heschl, Wernicke a la izquierda)",
+   "en": "Superior temporal gyrus",
+   "group": "temporal",
+   "side": "I",
+   "color": "#d9895b"
+  },
+  {
+   "id": 27,
+   "key": "temporal-medio-d",
+   "es": "Giro temporal medio",
+   "en": "Middle temporal gyrus",
+   "group": "temporal",
+   "side": "D",
+   "color": "#e6a57d"
+  },
+  {
+   "id": 28,
+   "key": "temporal-medio-i",
+   "es": "Giro temporal medio",
+   "en": "Middle temporal gyrus",
+   "group": "temporal",
+   "side": "I",
+   "color": "#e6a57d"
+  },
+  {
+   "id": 29,
+   "key": "temporal-inferior-d",
+   "es": "Giro temporal inferior",
+   "en": "Inferior temporal gyrus",
+   "group": "temporal",
+   "side": "D",
+   "color": "#f0c09f"
+  },
+  {
+   "id": 30,
+   "key": "temporal-inferior-i",
+   "es": "Giro temporal inferior",
+   "en": "Inferior temporal gyrus",
+   "group": "temporal",
+   "side": "I",
+   "color": "#f0c09f"
+  },
+  {
+   "id": 31,
+   "key": "fusiforme-d",
+   "es": "Giro fusiforme",
+   "en": "Fusiform gyrus",
+   "group": "temporal",
+   "side": "D",
+   "color": "#b8744a"
+  },
+  {
+   "id": 32,
+   "key": "fusiforme-i",
+   "es": "Giro fusiforme",
+   "en": "Fusiform gyrus",
+   "group": "temporal",
+   "side": "I",
+   "color": "#b8744a"
+  },
+  {
+   "id": 33,
+   "key": "occipital-lateral-d",
+   "es": "Corteza occipital lateral",
+   "en": "Lateral occipital cortex",
+   "group": "occipital",
+   "side": "D",
+   "color": "#a07ce0"
+  },
+  {
+   "id": 34,
+   "key": "occipital-lateral-i",
+   "es": "Corteza occipital lateral",
+   "en": "Lateral occipital cortex",
+   "group": "occipital",
+   "side": "I",
+   "color": "#a07ce0"
+  },
+  {
+   "id": 35,
+   "key": "cuneo-d",
+   "es": "Cúneo",
+   "en": "Cuneus",
+   "group": "occipital",
+   "side": "D",
+   "color": "#bfa3ef"
+  },
+  {
+   "id": 36,
+   "key": "cuneo-i",
+   "es": "Cúneo",
+   "en": "Cuneus",
+   "group": "occipital",
+   "side": "I",
+   "color": "#bfa3ef"
+  },
+  {
+   "id": 37,
+   "key": "calcarina-d",
+   "es": "Corteza calcarina (visual primaria, V1)",
+   "en": "Calcarine cortex (primary visual, V1)",
+   "group": "occipital",
+   "side": "D",
+   "color": "#8257d4"
+  },
+  {
+   "id": 38,
+   "key": "calcarina-i",
+   "es": "Corteza calcarina (visual primaria, V1)",
+   "en": "Calcarine cortex (primary visual, V1)",
+   "group": "occipital",
+   "side": "I",
+   "color": "#8257d4"
+  },
+  {
+   "id": 39,
+   "key": "lingual-d",
+   "es": "Giro lingual",
+   "en": "Lingual gyrus",
+   "group": "occipital",
+   "side": "D",
+   "color": "#d4c2f5"
+  },
+  {
+   "id": 40,
+   "key": "lingual-i",
+   "es": "Giro lingual",
+   "en": "Lingual gyrus",
+   "group": "occipital",
+   "side": "I",
+   "color": "#d4c2f5"
+  },
+  {
+   "id": 41,
+   "key": "cingulo-d",
+   "es": "Giro del cíngulo",
+   "en": "Cingulate gyrus",
+   "group": "limbico",
+   "side": "D",
+   "color": "#d97ab8"
+  },
+  {
+   "id": 42,
+   "key": "cingulo-i",
+   "es": "Giro del cíngulo",
+   "en": "Cingulate gyrus",
+   "group": "limbico",
+   "side": "I",
+   "color": "#d97ab8"
+  },
+  {
+   "id": 43,
+   "key": "parahipocampal-d",
+   "es": "Giro parahipocampal",
+   "en": "Parahippocampal gyrus",
+   "group": "limbico",
+   "side": "D",
+   "color": "#e9a2cf"
+  },
+  {
+   "id": 44,
+   "key": "parahipocampal-i",
+   "es": "Giro parahipocampal",
+   "en": "Parahippocampal gyrus",
+   "group": "limbico",
+   "side": "I",
+   "color": "#e9a2cf"
+  },
+  {
+   "id": 45,
+   "key": "hipocampo-d",
+   "es": "Hipocampo",
+   "en": "Hippocampus",
+   "group": "limbico",
+   "side": "D",
+   "color": "#f06292"
+  },
+  {
+   "id": 46,
+   "key": "hipocampo-i",
+   "es": "Hipocampo",
+   "en": "Hippocampus",
+   "group": "limbico",
+   "side": "I",
+   "color": "#f06292"
+  },
+  {
+   "id": 47,
+   "key": "amigdala-d",
+   "es": "Amígdala",
+   "en": "Amygdala",
+   "group": "limbico",
+   "side": "D",
+   "color": "#c2185b"
+  },
+  {
+   "id": 48,
+   "key": "amigdala-i",
+   "es": "Amígdala",
+   "en": "Amygdala",
+   "group": "limbico",
+   "side": "I",
+   "color": "#c2185b"
+  },
+  {
+   "id": 49,
+   "key": "insula-d",
+   "es": "Ínsula",
+   "en": "Insula",
+   "group": "insula",
+   "side": "D",
+   "color": "#e06c8e"
+  },
+  {
+   "id": 50,
+   "key": "insula-i",
+   "es": "Ínsula",
+   "en": "Insula",
+   "group": "insula",
+   "side": "I",
+   "color": "#e06c8e"
+  },
+  {
+   "id": 51,
+   "key": "caudado-d",
+   "es": "Núcleo caudado",
+   "en": "Caudate nucleus",
+   "group": "nucleos",
+   "side": "D",
+   "color": "#ffab91"
+  },
+  {
+   "id": 52,
+   "key": "caudado-i",
+   "es": "Núcleo caudado",
+   "en": "Caudate nucleus",
+   "group": "nucleos",
+   "side": "I",
+   "color": "#ffab91"
+  },
+  {
+   "id": 53,
+   "key": "putamen-d",
+   "es": "Putamen",
+   "en": "Putamen",
+   "group": "nucleos",
+   "side": "D",
+   "color": "#b07fd0"
+  },
+  {
+   "id": 54,
+   "key": "putamen-i",
+   "es": "Putamen",
+   "en": "Putamen",
+   "group": "nucleos",
+   "side": "I",
+   "color": "#b07fd0"
+  },
+  {
+   "id": 55,
+   "key": "palido-d",
+   "es": "Globo pálido",
+   "en": "Globus pallidus",
+   "group": "nucleos",
+   "side": "D",
+   "color": "#e0c3ff"
+  },
+  {
+   "id": 56,
+   "key": "palido-i",
+   "es": "Globo pálido",
+   "en": "Globus pallidus",
+   "group": "nucleos",
+   "side": "I",
+   "color": "#e0c3ff"
+  },
+  {
+   "id": 57,
+   "key": "accumbens-d",
+   "es": "Núcleo accumbens",
+   "en": "Nucleus accumbens",
+   "group": "nucleos",
+   "side": "D",
+   "color": "#c8a2c8"
+  },
+  {
+   "id": 58,
+   "key": "accumbens-i",
+   "es": "Núcleo accumbens",
+   "en": "Nucleus accumbens",
+   "group": "nucleos",
+   "side": "I",
+   "color": "#c8a2c8"
+  },
+  {
+   "id": 59,
+   "key": "talamo-d",
+   "es": "Tálamo",
+   "en": "Thalamus",
+   "group": "nucleos",
+   "side": "D",
+   "color": "#5fa3c0"
+  },
+  {
+   "id": 60,
+   "key": "talamo-i",
+   "es": "Tálamo",
+   "en": "Thalamus",
+   "group": "nucleos",
+   "side": "I",
+   "color": "#5fa3c0"
+  },
+  {
+   "id": 61,
+   "key": "capsula-interna-anterior-d",
+   "es": "Cápsula interna, brazo anterior",
+   "en": "Internal capsule, anterior limb",
+   "group": "sustancia-blanca",
+   "side": "D",
+   "color": "#f0d77a"
+  },
+  {
+   "id": 62,
+   "key": "capsula-interna-anterior-i",
+   "es": "Cápsula interna, brazo anterior",
+   "en": "Internal capsule, anterior limb",
+   "group": "sustancia-blanca",
+   "side": "I",
+   "color": "#f0d77a"
+  },
+  {
+   "id": 63,
+   "key": "capsula-interna-rodilla-d",
+   "es": "Cápsula interna, rodilla",
+   "en": "Internal capsule, genu",
+   "group": "sustancia-blanca",
+   "side": "D",
+   "color": "#ffb74d"
+  },
+  {
+   "id": 64,
+   "key": "capsula-interna-rodilla-i",
+   "es": "Cápsula interna, rodilla",
+   "en": "Internal capsule, genu",
+   "group": "sustancia-blanca",
+   "side": "I",
+   "color": "#ffb74d"
+  },
+  {
+   "id": 65,
+   "key": "capsula-interna-posterior-d",
+   "es": "Cápsula interna, brazo posterior",
+   "en": "Internal capsule, posterior limb",
+   "group": "sustancia-blanca",
+   "side": "D",
+   "color": "#ffe082"
+  },
+  {
+   "id": 66,
+   "key": "capsula-interna-posterior-i",
+   "es": "Cápsula interna, brazo posterior",
+   "en": "Internal capsule, posterior limb",
+   "group": "sustancia-blanca",
+   "side": "I",
+   "color": "#ffe082"
+  },
+  {
+   "id": 67,
+   "key": "sustancia-blanca-d",
+   "es": "Sustancia blanca hemisférica",
+   "en": "Cerebral white matter",
+   "group": "sustancia-blanca",
+   "side": "D",
+   "color": "#9aa3ad"
+  },
+  {
+   "id": 68,
+   "key": "sustancia-blanca-i",
+   "es": "Sustancia blanca hemisférica",
+   "en": "Cerebral white matter",
+   "group": "sustancia-blanca",
+   "side": "I",
+   "color": "#9aa3ad"
+  },
+  {
+   "id": 69,
+   "key": "ventriculo-lateral-d",
+   "es": "Ventrículo lateral",
+   "en": "Lateral ventricle",
+   "group": "ventriculos",
+   "side": "D",
+   "color": "#3a78b5"
+  },
+  {
+   "id": 70,
+   "key": "ventriculo-lateral-i",
+   "es": "Ventrículo lateral",
+   "en": "Lateral ventricle",
+   "group": "ventriculos",
+   "side": "I",
+   "color": "#3a78b5"
+  },
+  {
+   "id": 71,
+   "key": "cerebelo-d",
+   "es": "Hemisferio cerebeloso",
+   "en": "Cerebellar hemisphere",
+   "group": "cerebelo",
+   "side": "D",
+   "color": "#7fb45a"
+  },
+  {
+   "id": 72,
+   "key": "cerebelo-i",
+   "es": "Hemisferio cerebeloso",
+   "en": "Cerebellar hemisphere",
+   "group": "cerebelo",
+   "side": "I",
+   "color": "#7fb45a"
+  },
+  {
+   "id": 73,
+   "key": "cuerpo-calloso",
+   "es": "Cuerpo calloso",
+   "en": "Corpus callosum",
+   "group": "sustancia-blanca",
+   "side": "",
+   "color": "#d4d4d4"
+  },
+  {
+   "id": 74,
+   "key": "tercer-ventriculo",
+   "es": "III ventrículo",
+   "en": "Third ventricle",
+   "group": "ventriculos",
+   "side": "",
+   "color": "#4f9be0"
+  },
+  {
+   "id": 75,
+   "key": "acueducto",
+   "es": "Acueducto de Silvio",
+   "en": "Cerebral aqueduct",
+   "group": "ventriculos",
+   "side": "",
+   "color": "#7ab8f0"
+  },
+  {
+   "id": 76,
+   "key": "cuarto-ventriculo",
+   "es": "IV ventrículo",
+   "en": "Fourth ventricle",
+   "group": "ventriculos",
+   "side": "",
+   "color": "#2d6aa0"
+  },
+  {
+   "id": 77,
+   "key": "mesencefalo",
+   "es": "Mesencéfalo",
+   "en": "Midbrain",
+   "group": "tronco",
+   "side": "",
+   "color": "#c9b458"
+  },
+  {
+   "id": 78,
+   "key": "protuberancia",
+   "es": "Protuberancia",
+   "en": "Pons",
+   "group": "tronco",
+   "side": "",
+   "color": "#ddc970"
+  },
+  {
+   "id": 79,
+   "key": "bulbo",
+   "es": "Bulbo raquídeo",
+   "en": "Medulla oblongata",
+   "group": "tronco",
+   "side": "",
+   "color": "#a8943c"
+  },
+  {
+   "id": 80,
+   "key": "vermis",
+   "es": "Vermis cerebeloso",
+   "en": "Cerebellar vermis",
+   "group": "cerebelo",
+   "side": "",
+   "color": "#a5d17f"
+  },
+  {
+   "id": 81,
+   "key": "lcr-subaracnoideo",
+   "es": "LCR subaracnoideo y cisternas",
+   "en": "Subarachnoid CSF and cisterns",
+   "group": "lcr",
+   "side": "",
+   "color": "#25507a"
+  },
+  {
+   "id": 82,
+   "key": "hipotalamo",
+   "es": "Hipotálamo",
+   "en": "Hypothalamus",
+   "group": "nucleos",
+   "side": "",
+   "color": "#ce93d8"
+  },
+  {
+   "id": 83,
+   "key": "septo-fornix",
+   "es": "Septo pelúcido y fórnix",
+   "en": "Septum pellucidum and fornix",
+   "group": "sustancia-blanca",
+   "side": "",
+   "color": "#b0bec5"
+  }
+ ],
+ "territory": [
+  {
+   "id": 1,
+   "key": "aca-d",
+   "es": "ACA (arteria cerebral anterior)",
+   "en": "Anterior cerebral artery (ACA)",
+   "group": "aca",
+   "side": "D",
+   "color": "#5da9e9",
+   "kind": "cortical"
+  },
+  {
+   "id": 2,
+   "key": "aca-i",
+   "es": "ACA (arteria cerebral anterior)",
+   "en": "Anterior cerebral artery (ACA)",
+   "group": "aca",
+   "side": "I",
+   "color": "#5da9e9",
+   "kind": "cortical"
+  },
+  {
+   "id": 3,
+   "key": "lenticuloestriadas-mediales-d",
+   "es": "Lenticuloestriadas mediales (ACA, Heubner)",
+   "en": "Medial lenticulostriate arteries (ACA, Heubner)",
+   "group": "aca",
+   "side": "D",
+   "color": "#9fd0f5",
+   "kind": "profundo"
+  },
+  {
+   "id": 4,
+   "key": "lenticuloestriadas-mediales-i",
+   "es": "Lenticuloestriadas mediales (ACA, Heubner)",
+   "en": "Medial lenticulostriate arteries (ACA, Heubner)",
+   "group": "aca",
+   "side": "I",
+   "color": "#9fd0f5",
+   "kind": "profundo"
+  },
+  {
+   "id": 5,
+   "key": "lenticuloestriadas-laterales-d",
+   "es": "Lenticuloestriadas laterales (ACM)",
+   "en": "Lateral lenticulostriate arteries (MCA)",
+   "group": "acm",
+   "side": "D",
+   "color": "#e76f8e",
+   "kind": "profundo"
+  },
+  {
+   "id": 6,
+   "key": "lenticuloestriadas-laterales-i",
+   "es": "Lenticuloestriadas laterales (ACM)",
+   "en": "Lateral lenticulostriate arteries (MCA)",
+   "group": "acm",
+   "side": "I",
+   "color": "#e76f8e",
+   "kind": "profundo"
+  },
+  {
+   "id": 7,
+   "key": "acm-frontal-d",
+   "es": "ACM, ramas frontales",
+   "en": "MCA, frontal branches",
+   "group": "acm",
+   "side": "D",
+   "color": "#f4a261",
+   "kind": "cortical"
+  },
+  {
+   "id": 8,
+   "key": "acm-frontal-i",
+   "es": "ACM, ramas frontales",
+   "en": "MCA, frontal branches",
+   "group": "acm",
+   "side": "I",
+   "color": "#f4a261",
+   "kind": "cortical"
+  },
+  {
+   "id": 9,
+   "key": "acm-parietal-d",
+   "es": "ACM, ramas parietales",
+   "en": "MCA, parietal branches",
+   "group": "acm",
+   "side": "D",
+   "color": "#f7bd84",
+   "kind": "cortical"
+  },
+  {
+   "id": 10,
+   "key": "acm-parietal-i",
+   "es": "ACM, ramas parietales",
+   "en": "MCA, parietal branches",
+   "group": "acm",
+   "side": "I",
+   "color": "#f7bd84",
+   "kind": "cortical"
+  },
+  {
+   "id": 11,
+   "key": "acm-temporal-d",
+   "es": "ACM, ramas temporales",
+   "en": "MCA, temporal branches",
+   "group": "acm",
+   "side": "D",
+   "color": "#e08a45",
+   "kind": "cortical"
+  },
+  {
+   "id": 12,
+   "key": "acm-temporal-i",
+   "es": "ACM, ramas temporales",
+   "en": "MCA, temporal branches",
+   "group": "acm",
+   "side": "I",
+   "color": "#e08a45",
+   "kind": "cortical"
+  },
+  {
+   "id": 13,
+   "key": "acm-occipital-d",
+   "es": "ACM, ramas occipitales",
+   "en": "MCA, occipital branches",
+   "group": "acm",
+   "side": "D",
+   "color": "#c97a3a",
+   "kind": "cortical"
+  },
+  {
+   "id": 14,
+   "key": "acm-occipital-i",
+   "es": "ACM, ramas occipitales",
+   "en": "MCA, occipital branches",
+   "group": "acm",
+   "side": "I",
+   "color": "#c97a3a",
+   "kind": "cortical"
+  },
+  {
+   "id": 15,
+   "key": "acm-insular-d",
+   "es": "ACM, ramas insulares (M2)",
+   "en": "MCA, insular branches (M2)",
+   "group": "acm",
+   "side": "D",
+   "color": "#ffd29b",
+   "kind": "cortical"
+  },
+  {
+   "id": 16,
+   "key": "acm-insular-i",
+   "es": "ACM, ramas insulares (M2)",
+   "en": "MCA, insular branches (M2)",
+   "group": "acm",
+   "side": "I",
+   "color": "#ffd29b",
+   "kind": "cortical"
+  },
+  {
+   "id": 17,
+   "key": "acp-temporal-d",
+   "es": "ACP, ramas temporales",
+   "en": "PCA, temporal branches",
+   "group": "acp",
+   "side": "D",
+   "color": "#b7a2f0",
+   "kind": "cortical"
+  },
+  {
+   "id": 18,
+   "key": "acp-temporal-i",
+   "es": "ACP, ramas temporales",
+   "en": "PCA, temporal branches",
+   "group": "acp",
+   "side": "I",
+   "color": "#b7a2f0",
+   "kind": "cortical"
+  },
+  {
+   "id": 19,
+   "key": "acp-occipital-d",
+   "es": "ACP, ramas occipitales (calcarina)",
+   "en": "PCA, occipital branches (calcarine)",
+   "group": "acp",
+   "side": "D",
+   "color": "#9b7fe8",
+   "kind": "cortical"
+  },
+  {
+   "id": 20,
+   "key": "acp-occipital-i",
+   "es": "ACP, ramas occipitales (calcarina)",
+   "en": "PCA, occipital branches (calcarine)",
+   "group": "acp",
+   "side": "I",
+   "color": "#9b7fe8",
+   "kind": "cortical"
+  },
+  {
+   "id": 21,
+   "key": "coroidea-posterior-talamoperforantes-d",
+   "es": "Coroideas posteriores y talamoperforantes (ACP)",
+   "en": "Posterior choroidal and thalamoperforating arteries (PCA)",
+   "group": "acp",
+   "side": "D",
+   "color": "#7a5cc9",
+   "kind": "profundo"
+  },
+  {
+   "id": 22,
+   "key": "coroidea-posterior-talamoperforantes-i",
+   "es": "Coroideas posteriores y talamoperforantes (ACP)",
+   "en": "Posterior choroidal and thalamoperforating arteries (PCA)",
+   "group": "acp",
+   "side": "I",
+   "color": "#7a5cc9",
+   "kind": "profundo"
+  },
+  {
+   "id": 23,
+   "key": "coroidea-anterior-talamoperforantes-d",
+   "es": "Coroidea anterior y talamoperforantes anteriores (ACI)",
+   "en": "Anterior choroidal and anterior thalamoperforating arteries (ICA)",
+   "group": "aci",
+   "side": "D",
+   "color": "#4cc9d9",
+   "kind": "profundo"
+  },
+  {
+   "id": 24,
+   "key": "coroidea-anterior-talamoperforantes-i",
+   "es": "Coroidea anterior y talamoperforantes anteriores (ACI)",
+   "en": "Anterior choroidal and anterior thalamoperforating arteries (ICA)",
+   "group": "aci",
+   "side": "I",
+   "color": "#4cc9d9",
+   "kind": "profundo"
+  },
+  {
+   "id": 25,
+   "key": "basilar-d",
+   "es": "Perforantes de la basilar (tronco)",
+   "en": "Basilar perforators (brainstem)",
+   "group": "vertebrobasilar",
+   "side": "D",
+   "color": "#63c29b",
+   "kind": "profundo"
+  },
+  {
+   "id": 26,
+   "key": "basilar-i",
+   "es": "Perforantes de la basilar (tronco)",
+   "en": "Basilar perforators (brainstem)",
+   "group": "vertebrobasilar",
+   "side": "I",
+   "color": "#63c29b",
+   "kind": "profundo"
+  },
+  {
+   "id": 27,
+   "key": "cerebelosa-superior-d",
+   "es": "Cerebelosa superior (ACS)",
+   "en": "Superior cerebellar artery (SCA)",
+   "group": "vertebrobasilar",
+   "side": "D",
+   "color": "#8fd6b5",
+   "kind": "cortical"
+  },
+  {
+   "id": 28,
+   "key": "cerebelosa-superior-i",
+   "es": "Cerebelosa superior (ACS)",
+   "en": "Superior cerebellar artery (SCA)",
+   "group": "vertebrobasilar",
+   "side": "I",
+   "color": "#8fd6b5",
+   "kind": "cortical"
+  },
+  {
+   "id": 29,
+   "key": "cerebelosa-inferior-d",
+   "es": "Cerebelosas inferiores (PICA y AICA)",
+   "en": "Inferior cerebellar arteries (PICA and AICA)",
+   "group": "vertebrobasilar",
+   "side": "D",
+   "color": "#3fa57c",
+   "kind": "cortical"
+  },
+  {
+   "id": 30,
+   "key": "cerebelosa-inferior-i",
+   "es": "Cerebelosas inferiores (PICA y AICA)",
+   "en": "Inferior cerebellar arteries (PICA and AICA)",
+   "group": "vertebrobasilar",
+   "side": "I",
+   "color": "#3fa57c",
+   "kind": "cortical"
+  },
+  {
+   "id": 31,
+   "key": "frontera-aca-acm-d",
+   "es": "Zona frontera ACA–ACM (cortical)",
+   "en": "ACA–MCA borderzone (cortical)",
+   "group": "frontera",
+   "side": "D",
+   "color": "#c9d1d9",
+   "kind": "frontera-externa"
+  },
+  {
+   "id": 32,
+   "key": "frontera-aca-acm-i",
+   "es": "Zona frontera ACA–ACM (cortical)",
+   "en": "ACA–MCA borderzone (cortical)",
+   "group": "frontera",
+   "side": "I",
+   "color": "#c9d1d9",
+   "kind": "frontera-externa"
+  },
+  {
+   "id": 33,
+   "key": "frontera-acm-acp-d",
+   "es": "Zona frontera ACM–ACP (cortical)",
+   "en": "MCA–PCA borderzone (cortical)",
+   "group": "frontera",
+   "side": "D",
+   "color": "#aab4bf",
+   "kind": "frontera-externa"
+  },
+  {
+   "id": 34,
+   "key": "frontera-acm-acp-i",
+   "es": "Zona frontera ACM–ACP (cortical)",
+   "en": "MCA–PCA borderzone (cortical)",
+   "group": "frontera",
+   "side": "I",
+   "color": "#aab4bf",
+   "kind": "frontera-externa"
+  },
+  {
+   "id": 35,
+   "key": "frontera-interna-d",
+   "es": "Zona frontera interna (corona radiada / centro semioval)",
+   "en": "Internal borderzone (corona radiata / centrum semiovale)",
+   "group": "frontera",
+   "side": "D",
+   "color": "#eef2f6",
+   "kind": "frontera-interna"
+  },
+  {
+   "id": 36,
+   "key": "frontera-interna-i",
+   "es": "Zona frontera interna (corona radiada / centro semioval)",
+   "en": "Internal borderzone (corona radiata / centrum semiovale)",
+   "group": "frontera",
+   "side": "I",
+   "color": "#eef2f6",
+   "kind": "frontera-interna"
+  }
+ ],
+ "landmarks": {
+  "axial": {
+   "agujeroMagno": 3,
+   "bulbo": 7,
+   "orbitas": 12,
+   "fosaPosterior": 17,
+   "protuberancia": 17,
+   "mesencefalo": 26,
+   "gangliosBasales": 37,
+   "ventriculos": 43,
+   "centroSemioval": 52,
+   "vertex": 67
+  },
+  "coronal": {
+   "orbitas": 12,
+   "astasFrontales": 26,
+   "quiasma": 30,
+   "tercerVentriculo": 37,
+   "hipocampo": 39,
+   "protuberancia": 40,
+   "cuartoVentriculo": 45,
+   "atrio": 44,
+   "occipital": 59
+  },
+  "sagital": {
+   "lineaMedia": 26,
+   "talamo": 22,
+   "caudado": 21,
+   "putamen": 17,
+   "hipocampo": 17,
+   "insula": 14,
+   "orbita": 15,
+   "convexidad": 9
+  }
+ }
+}

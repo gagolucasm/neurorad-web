@@ -1,0 +1,6 @@
+Generated with Codex built-in image generation on 2026-10-17. No application-side image API is used.
+Original: 1536 × 1024 PNG; bundled derivative: 1280 × 853 JPEG.
+Decorative/conceptual only; never a radiological finding.
+
+Prompt:
+Use case: stylized-concept. Asset type: decorative hero illustration for NeuroRad, a Spanish-language neuroradiology learning app for everyone, from first principles to advanced learning. Create a refined scientific editorial 3D illustration, landscape 3:2. A luminous sculptural brain made of layered translucent frosted-glass slices, three planes gently separating, floats above a pure near-black graphite surface. Delicate ivory contour lines suggest folds; a single thin warm amber scanning plane crosses the volume. Precise, quiet, premium medical atlas atmosphere, subtle grain and soft volumetric light, no neon cyberpunk. Composition: brain centered toward upper-right, generous clean black negative space lower third and upper left for UI text. Palette: graphite, silver-white, restrained amber. This is conceptual cover art, not a real radiological scan or diagnostic image. No text, no numbers, no letters, no UI, no logos, no watermark. The artwork must remain readable at mobile card size.

@@ -1,0 +1,121 @@
+NeuroRad · revisión visual y editorial · 2026-10-17
+
+Generación: herramienta integrada image_gen; sin API externa ni claves.
+Primera pasada: ocho ilustraciones originales. Cada JPG de 1024 × 1024 tiene su prompt .prompt.txt.
+Los PNG originales permanecen en la carpeta de imágenes generadas de Codex.
+
+Uso en la app:
+- ct / mri / angiography / ultrasound / pet-principle-v2: galería de modalidades.
+- avm / dva / cavernoma-architecture-v2: laboratorio de arquitectura vascular.
+- dva / cavernoma-architecture-v2: comparación en malformaciones de bajo flujo.
+
+Revisión visual:
+Se comprobaron las conexiones arteria–nido–vena, la convergencia venosa y la
+diferencia entre cavernas y nido. Las imágenes explican estructuras generales;
+no reproducen histología a escala, mapas de captación, cortes clínicos ni medidas.
+El color ámbar de las técnicas representa procesos invisibles. La app las etiqueta
+como ilustraciones didácticas y conserva controles deterministas para flujo/señal.
+Las medidas de ABC/2, perfusión e ictus usan el modelo anatómico local MNI y capas
+simuladas en código, no valores extraídos de imágenes generadas.
+
+Alcance de revisión editorial de esta iteración:
+Introducción, contraste/modalidades, ictus, pediatría, epilepsia, diagnóstico
+diferencial, imitadores/trampas; revisión dirigida de MAV y bajo flujo en vascular
+avanzado. Corregidos absolutos sobre DWI/FLAIR, criterios históricos de selección
+en ictus, precauciones de contraste, Doppler carotídeo, especificidad de STIR,
+lenguaje técnico, susceptibilidad y decisiones individualizadas en cavernomas.
+Esta revisión dirigida no equivale a una validación clínica independiente de
+las 200 lecciones ni añade casos de pacientes reales.
+
+Fuentes consultadas para los cambios (también incluidas en los módulos):
+https://doi.org/10.1161/STR.0000000000000513
+https://www.acr.org/Clinical-Resources/Clinical-Tools-and-Reference/Contrast-Manual
+https://pmc.ncbi.nlm.nih.gov/articles/PMC5986826/
+https://intersocietal.org/wp-content/uploads/2023/11/IAC-Updated-Recommendations-for-Carotid-Stenosis-Interpretation-Criteria_11.1.23.pdf
+https://doi.org/10.3174/ajnr.A5483
+https://doi.org/10.1002/epi.70205
+https://www.ninds.nih.gov/health-information/disorders/arteriovenous-malformations-avms
+https://www.hopkinsmedicine.org/health/conditions-and-diseases/developmental-venous-anomalies
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12680281/
+https://doi.org/10.3174/ajnr.A2893
+
+Evidencias locales de esta iteración (no empaquetadas como contenido):
+shots/art-review/results.json — 18 estados de ilustración y controles vasculares.
+shots/vascular-refine/ — pruebas de modelos anatómicos y capturas antes/después.
+shots/art-content-validation.log — validación estricta de los 31 módulos.
+
+Segunda pasada · 2026-10-17
+
+Cuatro láminas adicionales generadas con image_gen integrado, con sus prompts:
+- myelin-intact-v3: axón continuo y segmentos de mielina con láminas concéntricas.
+- myelin-loss-v3: pérdida focal de cubierta con continuidad del axón conservada.
+- bbb-intact-v3: endotelio cerrado, trazador dentro del vaso, apoyo glial externo.
+- bbb-leak-v3: aumento conceptual de permeabilidad, trazador fuera y hematíes dentro.
+
+Son modelos conceptuales de microestructura, con colores falsos y proporciones
+ampliadas. No permiten medir un nodo, el calibre capilar ni el tamaño molecular.
+El corte de la pared permite ver el lumen y no representa una rotura vascular.
+La abertura de la barrera representa una vía de permeabilidad aumentada; no
+pretende explicar todos sus mecanismos celulares. Las leyendas explicitan estas
+simplificaciones y diferencian fuga de contraste de hemorragia. Revisadas las cuatro
+láminas y su integración a 360/402 puntos, incluidos selector y texto de procedencia.
+
+Uso: anatomía cerebral y desmielinización (mielina); contraste/modalidades (barrera).
+Revisada también la curva de perfusión: pico tisular no equivale a Tmax, ni anchura
+de la curva a MTT. Corregidos distractores en pediatría, epilepsia y diagnóstico
+diferencial; enlaces de prerrequisitos; integración de laboratorios en lecciones.
+La escala de carga de hiperintensidades no define normalidad por edad. Las drusas
+papilares no descartan papiledema coexistente. Fuentes incorporadas a cada módulo.
+
+Fuentes de esta ampliación:
+https://www.ninds.nih.gov/sites/default/files/2025-05/multiple-sclerosis-hope-through-research.pdf
+https://pmc.ncbi.nlm.nih.gov/articles/PMC7849738/
+https://pmc.ncbi.nlm.nih.gov/articles/PMC3063623/
+https://pubmed.ncbi.nlm.nih.gov/37236211/
+https://pubmed.ncbi.nlm.nih.gov/38216114/
+https://www.ilae.org/files/ilaeGuideline/RecommendationsForUseOf-StructuralMRI-Bernasconi_et_al-2019-Epilepsia.pdf
+https://pmc.ncbi.nlm.nih.gov/articles/PMC4686650/
+https://pmc.ncbi.nlm.nih.gov/articles/PMC8328013/
+
+Evidencia: shots/learning-art-review/results.json y capturas de las cuatro láminas.
+
+Tercera pasada · diez láminas adicionales
+
+Generadas con image_gen integrado, seis imágenes iniciales y cuatro variantes
+editadas a partir de una referencia para conservar encuadre, orientación y escala.
+Los 10 JPG tienen 1024 × 1024 píxeles y prompt individual junto a la imagen.
+ten-images-v4.json relaciona nombres de archivo y originales de generación.
+
+Selección y objetivo docente:
+1. meningeal-layers-v4: reconocer las membranas y el espacio real del LCR.
+2. epidural-compartment-v4: sangre por fuera de la duramadre.
+3. subdural-compartment-v4: sangre por dentro de la dura, sin entrar en surcos.
+4. edema-cytotoxic-v4: hinchazón intracelular y espacio extracelular estrecho.
+5. edema-vasogenic-v4: líquido y proteínas entre células, sin hemorragia.
+6. abscess-capsule-v4: pus, cápsula fibrosa y edema vecino como regiones distintas.
+7. sellar-chiasm-v4: masa en silla turca que eleva el quiasma, con tallo detrás.
+8. lumbar-disc-intact-v4: disco anterior y saco con raíces posteriores, sin médula.
+9. lumbar-disc-herniated-v4: ocupación del receso lateral y contacto con raíz transitante.
+10. aqueduct-obstruction-v4: cavidades dilatadas por encima del estrechamiento.
+
+Comprobados en las imágenes: orden de las membranas, sangre en su compartimento,
+agua intracelular frente a extracelular, eritrocitos dentro del capilar, relaciones
+selares, nivel lumbar sin médula y continuidad conceptual del sistema ventricular.
+El corte del capilar abre el vaso para verlo y no representa ruptura de su pared.
+Las partículas doradas son proteínas ampliadas; el azul no equivale a señal de RM.
+El quiasma está ampliado para verlo. Las raíces son estilizadas y no permiten
+identificar cada cordón como una raíz individual. El acueducto está ensanchado
+gráficamente para seguir su trayecto y el ámbar lo señala, no es un cuerpo extraño.
+Estas láminas no sustituyen los diagramas etiquetados ni imágenes clínicas reales.
+
+Fuentes utilizadas en sus lecciones y en la revisión asociada:
+https://pubmed.ncbi.nlm.nih.gov/2064027/
+https://doi.org/10.1016/j.cell.2015.03.029
+https://doi.org/10.1007/BF00688465
+https://doi.org/10.3171/jns.1981.55.4.0590
+https://pubmed.ncbi.nlm.nih.gov/24768732/
+https://pmc.ncbi.nlm.nih.gov/articles/PMC2851087/
+https://pmc.ncbi.nlm.nih.gov/articles/PMC4584028/
+https://pmc.ncbi.nlm.nih.gov/articles/PMC7051720/
+La auditoría de cobertura está en shots/content-completeness-review.json. Separa
+la cobertura estructural y funcional de una validación clínica independiente.

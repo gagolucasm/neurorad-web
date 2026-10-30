@@ -1,0 +1,7 @@
+Built-in Codex image generation. Conceptual educational illustration, not a patient image.
+
+Stage 1 (reference exec-18743023-f6c1-459f-a598-712ffac21a11.png):
+Use case: precise-object-edit scientific-educational. Edit this local craniocervical teaching image into a conceptual example of Chiari I tonsillar ectopia with crowding. Preserve exact camera, posterior occipital bone and rim at right, medulla and upper cervical spinal cord positions at left, upper cerebellar hemisphere, palette and scale. Change ONLY the most inferior small cerebellar tonsil: extend it inferiorly into a gently pointed peg-like shape, staying CONTINUOUS with cerebellar tissue, so its tip reaches distinctly BELOW the posterior occipital foramen magnum rim alongside the posterior surface of the upper cervical cord. The tonsil passes medial/anterior to the bone rim through the opening; it does NOT penetrate bone. Reduce the cyan CSF cisterna magna and the fluid between tonsil and medulla/cord due to crowding. Cord remains smooth continuous with no syrinx; do NOT drag the whole brainstem or whole cerebellum down, do not deform bone, do not add vertebrae, no extra disconnected tissue. No text, arrows, measurements or fake scan. Preserve the same crisp anatomical cutaway for direct comparison; descent alone does not encode symptoms or a diagnostic threshold.
+
+Selected output: exec-8ef9d5ac-e2bd-413f-b17b-a6cbdd9c3fcc.png
+

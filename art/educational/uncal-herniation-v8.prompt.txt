@@ -1,0 +1,7 @@
+Built-in Codex image generation. Conceptual educational illustration, not a patient image.
+
+Stage 1 (reference exec-0fadd17f-4dca-40d7-9f35-1f047bbf09a9.png):
+Use case: precise-object-edit scientific-educational. Edit this spatial frontal medical teaching model into a UNILATERAL uncal herniation. Patient's RIGHT is image LEFT. Keep camera, scale, right-hand image temporal lobe and BOTH ivory tentorial sheets fixed in place. ONLY the LEFT-OF-IMAGE medial temporal uncus now bulges medially toward the midbrain and extends DOWN around the free inner edge of the left tentorial sheet, THROUGH THE OPEN NOTCH, not through dural tissue. Make a continuous tan tongue of medial temporal tissue bending over the inner tentorial edge into the gap and reaching slightly BELOW that edge. The cyan CSF between this displaced uncus and midbrain is nearly obliterated. The central smooth brainstem is gently pushed toward IMAGE RIGHT and slightly indented on its image-left surface, remaining continuous. The unaffected opposite cistern remains visible. Do not move the sheet, do not break it, no tumor necessary, no arrows, text, internal transverse brainstem nuclei or new structures. This is a limited conceptual model of uncus descent and local cisternal crowding, not a full coronal slice. Keep atlas style and black background, make before/after difference unmistakable and anatomically coherent.
+
+Selected output: exec-cfa170a8-9675-4911-8413-c3f98460d695.png
+

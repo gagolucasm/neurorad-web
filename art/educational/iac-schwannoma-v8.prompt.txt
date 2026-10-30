@@ -1,0 +1,7 @@
+Built-in Codex image generation. Conceptual educational illustration, not a patient image.
+
+Stage 1 (reference exec-522df98e-77cf-43af-85bb-18da2e0b61ef.png):
+Use case: precise-object-edit scientific-educational. Edit reference image keeping same local opened petrous bone canal, two nerve bundles, camera and black background. Add one smooth lobulated muted rose-tan vestibular schwannoma arising eccentrically from the thicker posterior/lower VIII bundle in the MEDIAL HALF of the canal and bulging LEFT through the porus into the blue CSF cistern. Tumor has a small intracanalicular neck and larger round cisternal component; it gently widens the adjacent bony canal opening and displaces rather than invades the brain surface. The separate thin facial VII nerve along the anterior/top side is still visible draped over the anterior/top surface of the mass and must remain distinct. Some VIII fibers are splayed along inferior tumor edge. Do not put tumor on the thin upper nerve, do not add a second tumor, no tissue necrosis, no blood, no arrows or text. Maintain cyan CSF outside the tumor with partial local effacement. All other anatomy unchanged, nerve continuations still leave lateral right crop. This teaches the relationship of a vestibular schwannoma to canal, cistern and adjacent facial nerve, not histology or a real scan.
+
+Selected output: exec-310dd401-1ce0-4940-9785-25ecff351a30.png
+
